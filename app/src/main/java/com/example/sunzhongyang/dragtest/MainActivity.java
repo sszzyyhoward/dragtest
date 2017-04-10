@@ -19,6 +19,7 @@ public class MainActivity extends Activity implements View.OnTouchListener, View
         findViewById(R.id.blue_ball).setOnTouchListener(this);
         findViewById(R.id.top_container).setOnDragListener(this);
 //        findViewById(R.id.bottom_container).setOnDragListener(this);
+        //ooii
         findViewById(R.id.red_ball).setOnTouchListener(this);
         findViewById(R.id.ll1).setOnDragListener(this);
         findViewById(R.id.ll2).setOnDragListener(this);
