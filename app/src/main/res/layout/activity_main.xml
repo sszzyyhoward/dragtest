@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight=".5"
+        android:background="#f0f0ff"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <!--<ImageView-->
+            <!--android:id="@+id/red_ball"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:src="@mipmap/cylinder" />-->
+<TextView
+    android:id="@+id/red_ball"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="#cccccc"
+    android:text="T1"
+    />
+<TextView
+    android:id="@+id/green_ball"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="#f0000f"
+    android:text="T2"
+    />
+<TextView
+    android:id="@+id/blue_ball"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:background="#ff00ff"
+    android:text="T3"
+    />
+        <!--<ImageView-->
+            <!--android:id="@+id/green_ball"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:src="@mipmap/cylinder0_p" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/blue_ball"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:src="@mipmap/cylinder_x" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:layout_weight=".5"
+
+        android:gravity="center"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/ll1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="轮廓粗加工"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffff00"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="轮廓精加工"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#00ffff"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="凹槽加工"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
